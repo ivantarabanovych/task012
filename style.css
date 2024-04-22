@@ -1,16 +1,27 @@
-.color-game{
+.header{
+    color: azure;
     background-color: blueviolet;
+}
+
+.image{
+    background-color: rgb(97, 16, 173);
+    margin: 10px;
 }
 
 .radio{
     background-color: darkviolet;
+    margin-bottom: 10px;
 }
 
 .table{
     background-color: rgba(255, 0, 255, 0.8);
+    color: azure;
+    margin-bottom: 10px;
 }
 
 .btn{
     background-color: darkorchid;
+    color: azure;
+    font-size: 1.2rem;
 }
 
