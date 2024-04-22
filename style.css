@@ -1,22 +1,53 @@
 .header{
     color: azure;
     background-color: blueviolet;
-}
-
-.image{
-    background-color: rgb(97, 16, 173);
-    margin: 10px;
+    border: 8px solid rgb(255, 183, 0);
+    text-align: center;
+    margin-bottom: 25px;
+    width: 400px;
 }
 
 .radio{
     background-color: darkviolet;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    border: 8px solid rgb(1, 117, 242);
+    width: 400px;
+    height: 50px;
+}
+
+.radio input{
+    margin-top: 15px;
+    margin-left: 130px;
 }
 
 .table{
     background-color: rgba(255, 0, 255, 0.8);
     color: azure;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    border: 8px solid rgb(0, 251, 113);
+    width: 400px;
+}
+
+.table table{
+    margin: auto;
+}
+
+.table th, .table td {
+    border: 5px solid black; 
+    text-align: left;
+}
+
+.image{
+    width: 400px;
+    display: block;
+    background-color: rgb(97, 16, 173);
+    border: 8px solid rgb(25, 0, 253);
+    margin-bottom: 25px;
+}
+
+.image img{
+    display: block;
+    margin: auto;
 }
 
 .btn{
